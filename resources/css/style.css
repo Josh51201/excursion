@@ -1,5 +1,6 @@
 * {
     font-family: Verdana;
+    color: white;
 }
 
 body {
@@ -14,11 +15,27 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    font-weight: 300;
+    font-size: 42px;
+}
+
 a {
     color: aquamarine;
     font-size: 16px;
 }
 
-video {
-    margin: 30px;
+p {
+    font-size: 21px;
+    color: gray;
+}
+
+video, img {
+    margin: 20px;
+}
+
+.footer {
+    text-align: right;
+    color: gray;
+    padding: 10px;
 }
